@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    align-items: centre;
+    justify-content: centre;
+    background-color: #ECE5C7;
+    font-family: 'Rubik'; 
+
+}
+
+h1{
+text-align: center;
+background-color: #ECE5C7;
+padding: 50px;
+font-family: 'Kanit';
+font-size:45px;
+color: #085868;
+}  
+
+.box{
+    width: 600px;
+    min-height: 500px;
+    background-color: #CDC2AE;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 0;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+#item{
+    width: 100%;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    display: block;
+    box-shadow: 0px 0px 2px grey;
+    border-radius: 5px;
+
+
+}
+
+#to-do-box li{
+    list-style: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #116A7B;
+    color: #ffff;
+    position: relative;
+    border-radius: 5px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+#to-do-box li i{
+    position:absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+    background-color:#72a1a9 !important;
+    user-select: none;
+}
+
